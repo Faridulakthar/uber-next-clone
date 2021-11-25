@@ -8,7 +8,3 @@
 8. pass in location data in to confirm page ✅
 9. use the passed in data to put it on map ✅
 10. Create the HTML for ride selector ✅
-11.  ✅
-12.  ✅
-13.  ✅
-14.  ✅
