@@ -4,7 +4,7 @@ import mapboxgl from '!mapbox-gl'
 
 mapboxgl.accessToken = "pk.eyJ1IjoiZmFyaWR1bGFrdGhhciIsImEiOiJja3c1MXMydXkxc3o1MzBybzh6djlmaW14In0.c9e-XSDn1pDHIDFuKILj9w"
 
-const Map = (props) => {
+const map = (props) => {
 
     useEffect(() => {
         const map = new mapboxgl.Map({
@@ -44,7 +44,7 @@ const Map = (props) => {
     )
 }
 
-export default map
+export default Map
 
 const Wrapper = tw.div`
   flex-1 h-1/2
